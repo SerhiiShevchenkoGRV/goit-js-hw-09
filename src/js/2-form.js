@@ -27,7 +27,7 @@ form.addEventListener('submit', event => {
     return;
   }
 
-  console.log(formData);
+  console.log('Form Data:', formData);
 
   localStorage.removeItem(localStorageKey);
   form.reset();
